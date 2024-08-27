@@ -17,7 +17,7 @@ A3 = [2 8 9 3;
      0 7 10 0];
 
 B = generatemap();
-% B = A1;
+% B = A2;
 drawinterface(B)
 while 1
     useai = menu('是否使用AI解决？','是，广度搜索','是，深度搜索','否，玩家操作','否，再次生成','否，结束游戏');
